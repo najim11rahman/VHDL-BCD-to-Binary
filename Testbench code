@@ -21,7 +21,7 @@ ARCHITECTURE behavior OF tb_bb IS
    signal bcd_in_100 : std_logic_vector(3 downto 0) := (others => '0');
    signal bcd_in_1000 : std_logic_vector(3 downto 0) := (others => '0');
    signal bin_out : std_logic_vector(13 downto 0);
-
+ 
 BEGIN
  
     -- Instantiate the Unit Under Test (UUT)
